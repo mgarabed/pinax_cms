@@ -24,7 +24,7 @@ urlpatterns = patterns('',
     # pinax provided
     (r'^account/', include('account.urls')),
     (r'^openid/(.*)', PinaxConsumer()),
-    (r'^admin/(.*)', admin.site.root),
+    (r'^admin/(.*)', include(admin.site.urls)),
 )
 
 if settings.SERVE_MEDIA:
