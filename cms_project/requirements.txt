@@ -1,4 +1,5 @@
 --extra-index-url=http://dist.pinaxproject.com/dev/
+--extra-index-url=http://pypi.pinaxproject.com/
 
 Pinax==0.9a1
 django-frontendadmin==0.4
