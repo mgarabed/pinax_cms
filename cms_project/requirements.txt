@@ -1,6 +1,6 @@
 --find-links=http://pypi.pinaxproject.com
 --find-links=http://pypi2.pinaxproject.com
-
+Pinax==0.7.3
 django-frontendadmin==0.4
 django-attachments==0.3
 django-generic-flatblocks==0.3.0
